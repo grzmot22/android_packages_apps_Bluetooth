@@ -263,7 +263,6 @@ public class BluetoothOppObexServerSession extends ServerRequestHandler implemen
                 isWhitelisted(destination);
         boolean isAcceptAllFilesEnabled = CMSettings.System.getInt(mContext.getContentResolver(),
                 CMSettings.System.BLUETOOTH_ACCEPT_ALL_FILES, 0) == 1;
-
         try {
             boolean pre_reject = false;
 
